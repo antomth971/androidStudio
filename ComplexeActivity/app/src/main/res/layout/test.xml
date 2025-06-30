@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button android:text="ONE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button01" />
+        <Button android:text="TWO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button02"
+            android:layout_centerHorizontal="true" />
+        <Button android:text="THREE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button03"
+            android:layout_alignParentRight="true" />
+        <Button android:text="FOUR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button04"
+            android:layout_toLeftOf="@+id/Button05"
+            android:layout_centerVertical="true" />
+
+        <Button
+            android:id="@+id/Button05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="FIVE" />
+        <Button android:text="SIX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button06"
+            android:layout_toRightOf="@+id/Button05"
+            android:layout_centerVertical="true" />
+        <Button android:text="SEVEN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button07"
+            android:layout_above="@+id/Button08"
+            android:layout_centerHorizontal="true" />
+        <Button android:text="EIGHT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button08"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+
